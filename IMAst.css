@@ -1,0 +1,106 @@
+body {
+	background:black;
+	text-align:center;
+	margin:auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+
+}
+
+td {
+	color:white;
+}
+
+table {
+	text-align:center;
+	margin:auto;
+	table-layout:auto;
+
+}
+
+.logo {
+	width: 20%;
+	background: linear-gradient(#6037e9,45%,#02f6ca);
+	border-radius: 100%;
+	border: 2px dotted white;
+}
+
+.bar {
+	background-image: url("file:///C:/Users/karin/OneDrive/Pictures/Background/black.jpg.jpg");
+	width: 100%;
+	border:dotted black 5px;
+	border-radius:5%;
+}
+
+h1 {
+	font-size:20px;
+	margin:auto;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+.img {
+	max-width:75%;
+	height:auto;
+	border:solid black 1px;
+	border-radius:75%;
+}
+
+.tdImg {
+	padding:20px;
+	height:2px;
+	background: linear-gradient(#6037e9,#e03df2,#02f6ca);
+	border-radius:25%;
+} 
+
+.header {
+	position:fixed;
+	top:0;
+	width:40%;
+	padding:100px;
+	padding-top:0px;
+}
+
+.postBar {
+	padding-top:20px;
+	padding-bottom: 15px;
+	width: 100%;
+			/*<table class="postBar">
+			<td class="in"><input><button>search</button></input></td>
+		</table>
+		*/
+}
+
+.in {
+	position:fixed;
+	padding-top:120px;
+	padding-left:15%;
+}
+
+.sign {
+   position: fixed;
+   text-align: center;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: none;
+   color: white;
+   margin:auto;
+   padding-bottom:250px;
+}
+
+.log {
+	left:95%;
+	padding-top:25%;	
+}
+
+div {
+	padding:5%;
+	margin:auto;
+	border:0%;
+	
+	
+}
