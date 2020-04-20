@@ -1,0 +1,391 @@
+body {
+	background:black;
+	margin:auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+
+}
+.slideshow{
+	max-width: 1200px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+div.logo {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	content: url("https://image.flaticon.com/icons/png/512/1139/premium/1139163.png");
+	width: 200px;
+	height: auto;
+	padding: 8px 12px;
+}
+.Sign {
+	background-color: #00EFA7;
+	width: 200px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	padding: 8px 12px;
+	transform: translate(-50%, -50%);
+	border-radius: 2px;
+}
+.Log {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	padding: 8px 12px;
+	transform: translate(-50%, -50%);
+}
+
+div.slide {
+	position: relative;
+	width: 100%;
+	height:auto;
+	padding: 25px;
+	padding-top: 150px
+}
+div.slide2 {
+	position: relative;
+	width: 100%;
+	height:auto;
+	padding: 25px;
+	padding-top: 150px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.img2 {
+	width: 850;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.ima {
+	padding: 15px;
+	padding-left: 30px;
+	position: absolute;
+	left: 70%;
+	top: 40%;
+}
+img {
+	width: 1150px;
+	height: auto;
+}
+.fol {
+	width: 800px;
+	height: auto;
+	border-radius: 35%;
+	filter: grayscale(60%);
+	color: black;
+}
+.skyrim {
+	border-radius: 3%;
+}
+.pl {
+	padding: 25px;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	display: block;
+	background-color: rgb(0,0,0,0.4);
+}
+.anime {
+	border-radius: 5%;
+}
+.come {
+	padding: 0px;
+	position: absolute;
+	bottom: 35%;
+	left: 50%;
+	padding: 8px 12px;
+	transform: translate(-50%, -50%);
+	background-color: rgb(223,189,168,0.7);
+	color: black;
+	font-family: 'Fredoka One', cursive;
+}
+div.logo2 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	content: url("https://image.flaticon.com/icons/png/512/1139/premium/1139163.png");
+	width: 200px;
+	height: auto;
+	padding: 8px 12px;
+}
+.Sign2 {
+	background-color: #00EFA7;
+	width: 200px;
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	padding: 8px 12px;
+	transform: translate(-50%, -50%);
+	border-radius: 2px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Main start here :) */
+
+.main /*body*/ {
+	margin:auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+	background: url("https://cdn.wallpapername.com/2000x1102/20121213/battlefield%20knights%20fight%20fantasy%20art%20battles%20artwork%202000x1102%20wallpaper_www.wallpapername.com_32.jpg") no-repeat center center fixed;
+}
+.header {
+	position: relative;
+	display: flex;
+	max-width: auto;
+	max-height: 60px;
+	padding: 20px;
+	background-color: rgb(0,0,0,0.3);
+}
+.Profile/*header*/ {
+	position: relative;
+	content: url("https://i.pinimg.com/564x/49/27/30/49273051c04e7a225397031b3404cd50.jpg");
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	object-fit: cover;
+	border: solid 1px;
+	padding: 5px;
+}
+.box /*input with button*/{
+	position: relative;
+	max-height: 30px;
+	padding:18px;
+}
+#searchbtn {
+	max-width: 15px;
+	height: auto;
+}
+#search {
+	background-color: rgb(255,255,255,0.2);
+	border: none;
+	padding: 8px;
+	color: white;
+	width: 500px;
+}
+.help /*header*/{
+	position: absolute;
+	top: 50%;
+	right: 2%;
+	transform: translate(-50%, -50%);
+	padding: 8px 12px;
+}
+.Posts /*Down the header everything*/ {
+	position: relative;
+	display: flex;
+	margin: auto;
+	padding: 15px;
+}
+.theme /*themes*/{
+	position: relative;
+	padding: 15px;
+	height: max-content;
+}
+.blok /* to seperate*/{
+	position: relative;
+	padding: 10px;
+	padding-left: 35px;
+	display: flex;
+}
+.Tab /*theme look*/ {
+	position: relative;
+	padding: 5px;
+	display: flex;
+	background-color: rgb(255,255,255,0.5);
+	border-radius: 10%;
+}
+.newsicon /*News*/ {
+	position: relative;
+	padding: 10px;
+	content: url("https://image.flaticon.com/icons/svg/387/387598.svg");
+	width: 50px;
+	height: auto;
+}
+.weathercion /*Wheather*/{
+	position: relative;
+	padding: 10px;
+	content: url("https://image.flaticon.com/icons/svg/2649/2649783.svg");
+	width: 50px;
+	height: auto;
+}
+.gamesicon /*Games*/ {
+	position: relative;
+	padding: 10px;
+	content: url("https://image.flaticon.com/icons/svg/720/720718.svg");
+	width: 50px;
+	height: auto;
+}
+.kpopicon /*Kpop*/ {
+	position: relative;
+	padding: 10px;
+	content: url("https://image.flaticon.com/icons/svg/1754/1754178.svg");
+	width: 50px;
+	height: auto;
+}
+.animeicon /*Anime*/{
+	position: relative;
+	padding: 10px;
+	content: url("https://image.flaticon.com/icons/svg/826/826333.svg");
+	width: 50px;
+	height: auto;
+}
+.memeicon /*Meme*/{
+	position: relative;
+	padding: 10px;
+	content: url("https://apprecs.org/ios/images/app-icons/256/89/882400137.jpg");
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+}
+.messageicon /*Message*/{
+	position: relative;
+	padding: 10px;
+	content: url("https://image.flaticon.com/icons/svg/1256/1256649.svg");
+	width: 50px;
+	height: auto;
+	border-radius: 50%;
+}
+
+/*Peopleposts will use flex */
+
+.Peopleposts {
+	display: inline-flex;
+	flex-flow: wrap;
+	flex-direction: column;
+}
+.post1 /*posts*/ {
+	position: relative;
+	padding: 10px;
+	padding-left: 35px;
+	display: flex;
+	height: max-content;
+}
+.postblok /* to separate*/{
+	padding: 5px;
+	height: max-content;
+}
+.white /*Post background*/{
+	background-color: white;
+	padding: 20px;
+	border-radius: 50px;
+	max-width: 350px;
+	height: auto;
+}
+.Phead /*post header*/{
+padding: 5px;
+display: flex;
+max-height: 40px;
+width: auto;
+margin: auto;
+}
+.Pprof1 /*img*/{
+content: url("https://i.pinimg.com/280x280_RS/e0/ec/57/e0ec57084d3782a4253adb1beaacfc49.jpg");
+border-radius: 100%;
+object-fit: cover;
+padding: 3px;
+border:solid 1px black;
+height: 35px;
+width: 35px;
+position: relative;
+}
+.Pname {
+	color: black;
+	display: flex;
+	padding-top:0;
+	padding: 5px;
+	max-height: 35px;
+	position: relative;
+	align-items: center;
+}
+.bookmark {
+	width: 28px;
+	height: auto;
+	display: flex;
+	position: relative;
+	padding-left: 85px;
+}
+
+/*Phead end*/
+
+.pimgback {
+	padding: 5px;
+}
+.Pimg /*post itself*/{
+	width: 250px;
+	height: auto;
+	object-fit: fill;
+	padding: 5px;
+	border: solid black 0.5px;
+}
+
+/*share/comment/like*/
+
+.Pdown {
+	display: flex;
+}
+.Downblok {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.comment {
+	content: url("https://image.flaticon.com/icons/svg/2360/2360094.svg");
+	width: 28px;
+	height: 28px;
+}
+.heart {
+	content: url("https://image.flaticon.com/icons/svg/710/710147.svg");
+	width: 28px;
+	height: 28px;
+}
+.share {
+	content: url("https://image.flaticon.com/icons/svg/1932/1932893.svg");
+	width: 28;
+	height: 28px;
+}
+
+/*share/comment/like end*/
+
+.Pcomment /*comments*/{
+	display: flex;
+	padding-top: 10px;
+}
+.Pcomblok /*to separate*/ {
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.Pcomprof /*commenttor img*/{
+	content: url("https://i.pinimg.com/280x280_RS/e0/ec/57/e0ec57084d3782a4253adb1beaacfc49.jpg");
+	border-radius: 100%;
+	object-fit: cover;
+	padding: 3px;
+	border:solid 1px black;
+	height: 20px;
+	width: 20px;
+	position: relative;
+}
+.Ptext /*comment text*/ {
+	text-align: left;
+	max-width: 150px;
+	font-size: 12px;
+	height: auto;
+	color: black;
+	padding: 2px;
+	margin:auto;
+}
+.comheart /*like*/ {
+	content: url("https://image.flaticon.com/icons/svg/710/710147.svg");
+	width: 15px;
+	height: 15px;
+}
