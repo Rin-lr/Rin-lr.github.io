@@ -11,6 +11,26 @@
 	font-size: 40px;
 	font-family: 'Cinzel', serif;
 }
+#landingsite {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 15%;
+  margin: 1em;
+}
+#icon-header {
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+#login {
+  display: flex;
+  margin: 1em;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+
 
 #mc_embed_signup{
 	background:black;
